@@ -1,0 +1,14 @@
+{
+  "name": "@shinoda-yosuke-lvgs/hourly-update-module",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "github:shinoda-yosuke-lvgs/hello-dependabot",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/shinoda-yosuke-lvgs",
+    "access": "public"
+  },
+  "scripts": {
+    "local:publish:patch": "YARN_AUTH_TOKEN=$(gh auth token) yarn publish --patch"
+  }
+}
